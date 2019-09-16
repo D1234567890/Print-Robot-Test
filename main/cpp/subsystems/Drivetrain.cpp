@@ -20,7 +20,7 @@ void Drivetrain::InitDefaultCommand() {
 void Drivetrain::tankDrive(double leftInput, double rightInput) {
   leftPower = leftInput;
   rightPower = rightInput;
-  std::cout<<"Hi"<<std::endl;
+  std::cout<<leftPower<<" "<<rightPower<<std::endl;
 }
 
 // Put methods for controlling this subsystem
